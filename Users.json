@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "J Cole",
+        "imgPath": "Images/Thumbnails/JCole.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Ariana Grande",
+        "imgPath": "Images/Thumbnails/ArianaGrande.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Drake",
+        "imgPath": "Images/Thumbnails/Drake.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Travis Scott",
+        "imgPath": "Images/Thumbnails/TravisScott.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Kendrick Lamar",
+        "imgPath": "Images/Thumbnails/KendrickLamar.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Mac Miller",
+        "imgPath": "Images/Thumbnails/MacMiller.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Jhene Aiko",
+        "imgPath": "Images/Thumbnails/JheneAiko.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Michael Jackson",
+        "imgPath": "Images/Thumbnails/MichaelJackson.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Nicki Minaj",
+        "imgPath": "Images/Thumbnails/NickiMinaj.jpg"
+    },
+    {
+        "id": 10,
+        "name": "6lack",
+        "imgPath": "Images/Thumbnails/6lack.jpg"
+    }
+]

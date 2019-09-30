@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>SampleID</title>
+        <link rel = "stylesheet" href = "Styles.css">
+        <script src = "Core.js"></script>
+
+    </head>
+
+    <body onload = "setContentDimensions()">
+        
+        <nav id = "nav">
+
+            <div id = "menuButton" onclick = "toggleSidebar()">
+
+                <div class = "menuLine"></div>
+                <div class = "menuLine"></div>
+                <div class = "menuLine"></div>
+
+            </div>
+
+        </nav>
+
+        <div id = "badge">
+
+            <h2 id = "badgeName"> John <br> Smith </h2>
+            <h3 id = "badgeID"> 1 </h3>
+
+            <img id = "badgeImg" src = "Images/Thumbnails/JCole.jpg">
+
+        </div>
+
+        <aside id = "sidebar">
+
+            <div id="closeSidebarButtonContainer">
+
+                <div id = "closeSidebarButton" onclick = "toggleSidebar()">
+
+                    <div class = "closeLine"></div>
+                    <div class = "closeLine"></div>
+
+                </div>
+
+            </div>
+
+            <h4> USER LIST </h4>
+
+            <ul>
+
+                <li onclick = "loadUser(1)"> J Cole </li>
+                <li onclick = "loadUser(2)"> Ariana Grande </li>
+                <li onclick = "loadUser(3)"> Drake </li>
+                <li onclick = "loadUser(4)"> Travis Scott </li>
+                <li onclick = "loadUser(5)"> Kendrick Lamar </li>
+                <li onclick = "loadUser(6)"> Mac Miller </li>
+                <li onclick = "loadUser(7)"> Jhene Aiko </li>
+                <li onclick = "loadUser(8)"> Michael Jackson </li>
+                <li onclick = "loadUser(9)"> Nicki Minaj </li>
+                <li onclick = "loadUser(10)"> 6lack </li>
+
+            </ul>
+
+        </aside>
+
+    </body>
+
+</html>

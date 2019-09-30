@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, article, footer,aside, hgroup{display: block;}
+  
+body, html{text-align: center;
+		background-color: #FFFFFF;
+		height: 100%;
+        font-family: "Eras ITC", Tahoma, Sans-serif;}
+        
+
+#nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    float: left;
+    background: #18315A;
+}
+
+#menuButton{
+    float: left;
+    margin: 10px 0 10px 30px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+
+.menuLine{
+    width: 40px;
+    height: 6px;
+    background: white;
+    margin-bottom: 8px;
+}
+
+.menuLine:last-child{
+    margin-bottom: 0;
+}
+
+
+#badge{
+    width: 310px;
+    height: 200px;
+    margin: -100px auto 0 auto;
+    position: relative;
+    top: 50%;
+    background: url(Images/badge.png) no-repeat center;
+    background-size: cover;
+    border: 1px solid #c9c9c9;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: #444444;
+}
+
+#badgeName{
+    position: relative;
+    left: 0;
+    top: 130px;
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+#badgeID{
+    position: relative;
+    left: 0;
+    top: 170px;
+    width: 35%;
+    text-align: right;
+    padding-right: 15%;
+    float: left;
+}
+
+#badgeImg{
+    width: 92px;
+    height: 104px;
+    position: relative;
+    top: 24px;
+    right: 12px;
+    float: right;
+    background-color: #ffffff;
+}
+
+#sidebar{
+    position: absolute;
+    float: left;
+    background: #18315A;
+    color: #ffffff;
+    top: 0px;
+    left: -200px;
+    width: 200px;
+    overflow-y: auto;
+    overflow-x: none;
+    transition: 0.5s;
+}
+
+#sidebar ul{
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+
+#sidebar ul li{
+    width: 85%;
+    padding: 10px 5% 10px 10%;
+    border-bottom: 1px solid #c9c9c9;
+    cursor: pointer;
+    text-align: left;
+}
+
+#sidebar ul li:hover{
+    background: teal;
+}
+
+#closeSidebarButtonContainer{
+    width: 100%;
+    float: left;
+}
+
+#closeSidebarButton{
+    float: right;
+    height: 40px;
+    margin: 4px 4px 10px 0;
+    cursor: pointer;
+}
+
+.closeLine{
+    width: 40px;
+    height: 6px;
+    position: relative;
+    background: #ffffff;
+}
+
+.closeLine:first-child{
+    transform: rotate(45deg);
+    top: 16px;
+}
+
+.closeLine:last-child{
+    transform: rotate(-45deg);
+    top: 10px;
+}
+
+#sidebar h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
